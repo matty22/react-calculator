@@ -1,0 +1,23 @@
+
+.button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+.button:active {
+  box-shadow: 0px 0px;
+  transform: translateY(3%);
+}
+
+.operation {
+  background-color: #ce5e45;
+}
+
+.equals {
+  background-color: #ce45b6;
+}
